@@ -33,3 +33,15 @@ section#telefone{
     width: 587px;
     background: url(../imagens/frame-celular.webp) no-repeat;
 }
+
+
+
+section#icones{
+    text-align: right;
+}
+
+section#icones img{
+    width: 50px;
+    margin: 20px;
+    border-radius: 50%;
+}
