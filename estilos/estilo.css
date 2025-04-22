@@ -36,12 +36,29 @@ section#telefone{
 
 
 
+iframe#tela{
+    position: absolute;
+    top: 16.3px;
+    left: 269px;
+    width: 250px;
+    height: 570px;
+}
+
+
+
 section#icones{
     text-align: right;
 }
 
 section#icones img{
-    width: 50px;
+    width: 60px;
     margin: 20px;
     border-radius: 50%;
+}
+section#icones img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.747);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.733);
+    transform: translate(-7px, -5px);
+    box-sizing: border-box;
+    transition-duration: .3s;
 }
